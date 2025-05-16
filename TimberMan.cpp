@@ -13,7 +13,7 @@ void updateCloudSprite(Sprite &spriteCloud, Time &dt, float &pixelPerSecondCloud
     if (x > 1920)
     {
         spriteCloud.setPosition(-300, y);
-    }
+    } 
     else
     {
         spriteCloud.setPosition(x, y);
