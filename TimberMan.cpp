@@ -18,7 +18,7 @@ void updateCloudSprite(Sprite &spriteCloud, Time &dt, float &pixelPerSecondCloud
     {
         spriteCloud.setPosition(x, y);
     }
-}
+} 
 void updateBeeSprite(Sprite &spriteBee, Time &dt, float &pixelPerSecondBee)
 {
     //(rand()%50) -25
